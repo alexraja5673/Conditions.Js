@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	 <title> JS</title>
+</head>
+<body>
+	
+    <script>
+		 //Contions
+
+			console.log("___If Else___");
+			var m=parseInt(prompt("enter a num for odd or even find")); 
+			if (m%2==0){
+				console.log("you enter a even num");
+			}else{
+				console.log("you enter a odd num");
+			}
+
+
+			console.log("___Else If___");
+			var n=parseInt(prompt("enter age for comfirm")); 
+			if (n=>18){
+				console.log("Just go inside");
+			}else if(n<35){
+				console.log("you can play this game");
+			}else{
+				console.log("No permit");
+			}
+
+
+
+			console.log("___Nested if___");
+			var o=prompt("Enter your genter"),p=prompt("Enter your age"),q=prompt("Enter your mark"); 
+			if (o=="m"){
+				 if(p>18){
+					 if(q>70){
+				console.log("You are eligible for apply");
+			}
+			}
+			}
+
+
+			console.log("___Switch___");
+			let r=15,s=25;
+			let t=prompt("Enter a operator");
+			switch (t){
+				case "+" :
+				  console.log(s+r);
+				  break;
+				case "-" :
+				  console.log(s-r);
+				  break;
+				case "*" :
+				  console.log(s*r);
+				  break;
+				case "/" :
+				  console.log(s/r);
+				  break;
+				  default:
+				  console.log("enter a crt operator");
+			}
+
+			
+	</script> 
+	
+	
+</body>
+</html>
